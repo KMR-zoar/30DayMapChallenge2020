@@ -1,5 +1,4 @@
 import * as d3 from 'd3'
-import { Delaunay } from 'd3-delaunay'
 
 export const attribution =
   'Point data <a href="https://opendata.pref.saitama.lg.jp/data/dataset/hinanjo">川越市 避難所・避難場所</a> | <a href="https://openstreetmap.org/">&copy OpenStreetMap contributors</a>'
