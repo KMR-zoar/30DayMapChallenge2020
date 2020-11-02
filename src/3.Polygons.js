@@ -77,7 +77,8 @@ export const renderPolygons = (map, L) => {
       .attr('class', 'voronoi')
       .attr('stroke', 'green')
       .attr('stroke-width', 2)
-      .attr('fill', 'none')
+      .attr('fill', 'green')
+      .attr('fill-opacity', '0.2')
 
     const update = () => {
       featureElement.attr('d', path)
