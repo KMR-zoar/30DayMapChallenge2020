@@ -13,6 +13,7 @@ const map = new L.Map('map', {
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: Lines.attribution,
   maxZoom: 18,
+  opacity: 0
 }).addTo(map)
 
 L.svg().addTo(map)
