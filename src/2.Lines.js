@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 
 export const attribution =
-  'Line data and basemap by <a href="https://openstreetmap.org/">&copy OpenStreetMap contributors</a>'
+  'Line data by <a href="https://openstreetmap.org/">&copy OpenStreetMap contributors</a>'
 
 export const renderLine = (map, L) => {
   function projectPoint(x, y) {
