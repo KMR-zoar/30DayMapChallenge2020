@@ -38,7 +38,8 @@ export const renderPoints = (map, L) => {
         .attr('width', 30)
         .attr('xlink:href', './data/hexagon.svg')
         .attr('transform', (d) => {
-          return 'translate(' + (d.x -15) + ',' + (d.y -18) + ')'})
+          return 'translate(' + (d.x - 15) + ',' + (d.y - 18) + ')'
+        })
     }
 
     map.on('moveend', update)

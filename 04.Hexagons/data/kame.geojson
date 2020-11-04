@@ -1,0 +1,107 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "本店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.48285974562165,
+          35.9213413565102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "元町店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.48279671370983,
+          35.924119442824306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "妙喜庵"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.48932319879532,
+          35.9184768279574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "広栄店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.46738004684448,
+          35.90100068576376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "工場売店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5217564702034,
+          35.9473367562627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "丸広川越店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.48355108499527,
+          35.912688806125885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "アトレマルヒロ店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4831058382988,
+          35.9083005321214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name":"西武本川越ぺぺ店"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.48189079761505,
+          35.9151761107842
+        ]
+      }
+    }
+  ]
+}
