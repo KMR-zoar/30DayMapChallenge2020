@@ -2,7 +2,7 @@ import * as d3 from 'd3'
 import { select } from 'd3'
 
 export const attribution =
-  'Polygon data <a href="https://www.e-stat.go.jp/">政府統計の総合窓口(e-Stat)</a> 国勢調査2020年埼玉県川越市 | <a href="https://openstreetmap.org/">&copy OpenStreetMap contributors</a>'
+  'Polygon data <a href="https://www.e-stat.go.jp/">政府統計の総合窓口(e-Stat)</a> 国勢調査 埼玉県川越市 | <a href="https://openstreetmap.org/">&copy OpenStreetMap contributors</a>'
 
   export const renderPolygons = (map, L) => {
     function projectPoint(x, y) {
