@@ -3,7 +3,7 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import './style.css'
 
-import * as Hexagons from './4.Hexagons'
+import * as Blue from './5.Blue'
 
 const map = new L.Map('map', {
   center: [35.918, 139.483],
@@ -11,10 +11,10 @@ const map = new L.Map('map', {
 })
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: Hexagons.attribution,
+  attribution: Blue.attribution,
   maxZoom: 18
 }).addTo(map)
 
 L.svg().addTo(map)
 
-Hexagons.renderPoints(map, L)
+Blue.renderPolygons(map, L)
