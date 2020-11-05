@@ -3,18 +3,18 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import './style.css'
 
-import * as Blue from './5.Blue'
+import * as Red from './6.Red'
 
 const map = new L.Map('map', {
-  center: [35.918, 139.483],
-  zoom: 13,
+  center: [36.06, 139.3440306],
+  zoom: 10,
 })
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: Blue.attribution,
+  attribution: Red.attribution,
   maxZoom: 18
 }).addTo(map)
 
 L.svg().addTo(map)
 
-Blue.renderPolygons(map, L)
+Red.renderPolygons(map, L)
